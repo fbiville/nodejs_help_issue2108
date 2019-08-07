@@ -41,7 +41,11 @@ class InputTransform extends Transform {
     }
 
     _transform(chunk, _, callback) {
-        callback(null, [chunk.length, chunk]);
+        try {
+            callback(null, [chunk.length, chunk]);
+        } catch(err) {
+            this.emit('error', err);
+        }
     }
 }
 
