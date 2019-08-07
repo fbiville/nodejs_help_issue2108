@@ -16,5 +16,5 @@
  $ yarn test
 ```
 
-Understand how and why the solution works?
+Understand how and why [the solution](https://github.com/fbiville/nodejs_help_issue2108/compare/solution?expand=1#diff-0) works?
 Please explain [here](https://github.com/nodejs/help/issues/2108).
